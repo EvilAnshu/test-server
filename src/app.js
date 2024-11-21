@@ -1,6 +1,5 @@
 import express from "express";
 import { config } from "dotenv";
-import ErrorMiddleware from "./middlewares/Error.js";
 import cors from "cors";
 import { decodeBase64File } from "./utils/fileHandler.js";
 import { isPrime } from "./utils/primeChecker.js";
