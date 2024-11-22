@@ -16,11 +16,7 @@ app.use(express.json());
 
 // Configure CORS
 app.use(
-    cors({
-        origin: process.env.FRONTEND_URL,
-        credentials: true,
-        methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
-    })
+    cors()
 );
 
 const userId = 'anshu_verma_02012001';
